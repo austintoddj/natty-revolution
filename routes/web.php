@@ -23,7 +23,7 @@ Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm
 Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 
 // Public Routes...
-Route::view('/', 'public.index');
+Helper::include_route_files(__DIR__.'/public/');
 
 // Admin Routes...
-Route::get('/home', 'HomeController@index')->name('home');
+Helper::include_route_files(__DIR__.'/admin/');
