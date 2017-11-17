@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contact as ContactMail;
+use App\Models\Contact as ContactModel;
 
 class ContactController extends Controller
 {
@@ -21,7 +23,11 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        Contact::create($request->all());
+        // Store the message in the database
+        ContactModel::create($request->all());
+
+        // Send an email with the contents of the message
+        Mail::send(new ContactMail($request));
 
         return back()->with('success', 'Thanks for contacting us!');
     }
