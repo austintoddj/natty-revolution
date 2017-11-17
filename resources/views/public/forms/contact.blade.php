@@ -5,14 +5,7 @@
         <label for="name" class="col-lg-4 col-form-label text-lg-right">Name</label>
 
         <div class="col-lg-6">
-            <input
-                    id="name"
-                    type="text"
-                    class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
-                    name="name"
-                    value="{{ old('name') }}"
-                    required
-            >
+            <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required>
 
             @if ($errors->has('name'))
                 <div class="invalid-feedback">
@@ -26,14 +19,7 @@
         <label for="email" class="col-lg-4 col-form-label text-lg-right">E-Mail Address</label>
 
         <div class="col-lg-6">
-            <input
-                    id="email"
-                    type="email"
-                    class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}"
-                    name="email"
-                    value="{{ old('email') }}"
-                    required
-            >
+            <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
 
             @if ($errors->has('email'))
                 <div class="invalid-feedback">
