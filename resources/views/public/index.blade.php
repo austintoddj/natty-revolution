@@ -8,7 +8,7 @@
                     <div class="card-header">Contact Us</div>
 
                     <div class="card-body">
-                        {{--@include('public.partials.success)--}}
+                        @include('public.partials.success')
                         @include('public.forms.contact')
                     </div>
                 </div>
