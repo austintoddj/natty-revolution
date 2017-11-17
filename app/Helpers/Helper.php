@@ -17,7 +17,6 @@ class Helper extends Constants
         return preg_replace('(^https?://)', '', $url);
     }
 
-
     public static function include_route_files($folder)
     {
         try {
