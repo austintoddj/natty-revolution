@@ -11,6 +11,11 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-    .sass('resources/assets/sass/app.scss', 'public/css')
-    .copy('resources/assets/img', 'public/img');
+mix.sass('resources/assets/public/sass/app.scss', 'public/css')
+    .js('resources/assets/public/js/app.js', 'public/js')
+    .copy('resources/assets/public/js/toolkit-bold.js', 'public/js')
+    .copy('resources/assets/public/js/application-bold.js', 'public/js')
+    .copy('resources/assets/public/img', 'public/img')
+    .copy('resources/assets/public/css/toolkit-bold.css', 'public/css')
+    .copy('resources/assets/public/css/application-bold.css', 'public/css')
+    .copy('resources/assets/public/fonts', 'public/fonts');
