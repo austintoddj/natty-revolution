@@ -35,12 +35,12 @@
                             Events
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="https://www.facebook.com/events/1705643622780477" target="_blank" class="dropdown-item">Michigan Roar Natural Classic</a>
                             <a href="https://www.facebook.com/Diva-Classic-All-Womens-Event-401063200081726" target="_blank" class="dropdown-item">Diva Classic All Women's Event</a>
-                            <a href="https://www.facebook.com/events/480484935664682" target="_blank" class="dropdown-item">Wisconsin Warrior Natural Classic</a>
-                            <a href="https://www.facebook.com/events/298381637330687" target="_blank" class="dropdown-item">MTS Nutrition Inferno</a>
+                            <a href="https://www.facebook.com/events/1705643622780477" target="_blank" class="dropdown-item">Michigan Roar Natural Classic</a>
                             <a href="https://www.facebook.com/events/1249702451737632" target="_blank" class="dropdown-item">Michigan State Natural Bodybuilding Championships</a>
                             <a href="https://www.facebook.com/Minnesota-Mayhem-Natural-Bodybuilding-Championships-545085625591026" target="_blank" class="dropdown-item">Minnesota Mayhem Natural Bodybuilding Championships</a>
+                            <a href="https://www.facebook.com/events/298381637330687" target="_blank" class="dropdown-item">MTS Nutrition Inferno</a>
+                            <a href="https://www.facebook.com/events/480484935664682" target="_blank" class="dropdown-item">Wisconsin Warrior Natural Classic</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
