@@ -6,7 +6,6 @@
             <div class="col-md-8 offset-md-2">
                 <div class="card">
                     <div class="card-header">Contact Us</div>
-
                     <div class="card-body">
                         @include('public.partials.success')
                         @include('public.forms.contact')

@@ -35,8 +35,25 @@
                             Events
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a href="http://www.minnesotamayhem.com/the-venue" class="dropdown-item">Minnesota Mayhem</a>
-                            <a href="http://www.divaclassicmn.com" class="dropdown-item">Diva Classic</a>
+                            <a href="https://www.facebook.com/events/1705643622780477" target="_blank" class="dropdown-item">Michigan Roar Natural Classic</a>
+                            <a href="https://www.facebook.com/Diva-Classic-All-Womens-Event-401063200081726" target="_blank" class="dropdown-item">Diva Classic All Women's Event</a>
+                            <a href="https://www.facebook.com/events/480484935664682" target="_blank" class="dropdown-item">Wisconsin Warrior Natural Classic</a>
+                            <a href="https://www.facebook.com/events/298381637330687" target="_blank" class="dropdown-item">MTS Nutrition Inferno</a>
+                            <a href="https://www.facebook.com/events/1249702451737632" target="_blank" class="dropdown-item">Michigan State Natural Bodybuilding Championships</a>
+                            <a href="https://www.facebook.com/Minnesota-Mayhem-Natural-Bodybuilding-Championships-545085625591026" target="_blank" class="dropdown-item">Minnesota Mayhem Natural Bodybuilding Championships</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            Results
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="#" target="_blank" class="dropdown-item">2018</a>
+                            <a href="#" target="_blank" class="dropdown-item">2017</a>
+                            <a href="#" target="_blank" class="dropdown-item">2016</a>
+                            <a href="#" target="_blank" class="dropdown-item">2015</a>
                         </div>
                     </li>
                 </ul>
