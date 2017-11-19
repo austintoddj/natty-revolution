@@ -1,4 +1,4 @@
-<form method="POST" action="{{ url('/') }}">
+<form method="POST" action="{{ url('/') }}" id="contact">
     {{ csrf_field() }}
 
     <div class="text-ribbon-inputs-split">

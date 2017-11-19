@@ -1,6 +1,25 @@
 <div class="stage-shelf hidden" id="sidebar">
     <ul class="nav nav-bordered nav-stacked flex-column">
         <li class="nav-header">
+            <small>About Us</small>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#grid" data-target="#stage" data-toggle="stage">Grid</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact" data-target="#stage" data-toggle="stage">Contact Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#pricing" data-target="#stage" data-toggle="stage">Pricing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#footer" data-target="#stage" data-toggle="stage">About</a>
+        </li>
+
+        <li class="nav-divider"></li>
+
+        <li class="nav-header">
             <small>Events</small>
         </li>
 
@@ -32,7 +51,7 @@
         <li class="nav-divider"></li>
 
         <li class="nav-header">
-            <small>Results</small>
+            <small>Show Results</small>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">2018 Results</a>
@@ -45,25 +64,6 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">2015 Results</a>
-        </li>
-
-        <li class="nav-divider"></li>
-
-        <li class="nav-header">
-            <small>Extras</small>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link" href="#grid" data-target="#stage" data-toggle="stage">Grid</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#contact" data-target="#stage" data-toggle="stage">Contact Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#pricing" data-target="#stage" data-toggle="stage">Pricing</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#footer" data-target="#stage" data-toggle="stage">About</a>
         </li>
     </ul>
 </div>
