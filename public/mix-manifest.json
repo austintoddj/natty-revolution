@@ -1,4 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/toolkit-bold.js": "/js/toolkit-bold.js",
+    "/js/application-bold.js": "/js/application-bold.js",
+    "/css/toolkit-bold.css": "/css/toolkit-bold.css",
+    "/css/application-bold.css": "/css/application-bold.css"
 }

@@ -51,10 +51,8 @@
                     @endif
                 </ul>
             </div>
-
         </div>
     </nav>
-
     @yield('content')
 </div>
 
